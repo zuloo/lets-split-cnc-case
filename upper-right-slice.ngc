@@ -1,0 +1,823 @@
+G40  ; disable tool radius compensation
+G49  ; disable tool length compensation
+G80  ; cancel modal motion
+G54  ; select coordinate system 1
+G90  ; disable incremental moves
+G21  ; metric
+F800  ; set feedrate
+S1000  ; set spindle speed
+G61  ; exact path mode
+M3  ; start spindle
+G04 P3.0  ; wait for 3.0 seconds
+G0 X7.285860 Y-86.000000 Z4.000000
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-17.000000
+G0 Z4.000000
+  X25.107454 Y-11.117664
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X42.875023
+G0 Z4.000000
+  X94.470319
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X105.304361
+G0 Z4.000000
+  X114.830366 Y-17.000000
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-85.853136
+  X10.870677
+  Y-17.000000
+G0 Z4.000000
+  X14.566145 Y-14.676496
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X15.087169
+G0 Z4.000000
+  X24.612831
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X46.433855
+G0 Z4.000000
+  X91.438721
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X108.372319
+G0 Z4.000000
+  X111.245549 Y-16.957284
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-82.294304
+  X14.455494
+  Y-18.235328
+  X107.660732
+  Y-78.735472
+  X18.040310
+  Y-72.401233
+G0 Z4.000000
+  Y-68.598790
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-21.794160
+  X104.075916
+  Y-30.346192
+G0 Z4.000000
+  Y-34.553732
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-68.446190
+G0 Z4.000000
+  Y-72.653732
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-75.176640
+  X101.905490
+G0 Z4.000000
+  X96.494686
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X25.584596
+G0 Z4.000000
+  X21.625127 Y-65.322302
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-25.352992
+  X100.491099
+  Y-27.237573
+G0 Z4.000000
+  Y-37.662431
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-65.337569
+G0 Z4.000000
+  X93.896469 Y-71.617808
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X28.283973
+G0 Z4.000000
+  X25.209944 Y-65.668182
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-28.911824
+  X95.010265
+G0 Z4.000000
+  X96.906282 Y-37.247119
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 Y-65.752882
+G0 Z4.000000
+  X94.484604 Y-68.058976
+F200  ; set feedrate
+G1 Z-2.000000
+F800  ; set feedrate
+G1 X28.794761
+  Y-32.470656
+  X93.321465
+  Y-64.500144
+  X32.379578
+  Y-36.029488
+  X89.736648
+  Y-60.941312
+  X35.964395
+  Y-39.588320
+  X86.151831
+  Y-57.382480
+  X39.549212
+  Y-43.147152
+  X82.567014
+  Y-53.823648
+  X43.134029
+  Y-46.705984
+  X78.982197
+  Y-50.264816
+  X46.718845
+G0 Z4.000000
+  X10.870677 Y-84.000000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-76.000000
+G0 Z4.000000
+  Y-64.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  Y-26.850000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-18.850000
+G0 Z4.000000
+  X111.245549 Y-18.850000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-26.850000
+G0 Z4.000000
+  Y-37.900000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-64.950000
+G0 Z4.000000
+  Y-76.000000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-82.294304
+  X104.750000
+G0 Z4.000000
+  X93.700000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X85.700000
+G0 Z4.000000
+  X74.650000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X66.650000
+G0 Z4.000000
+  X55.600000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X47.600000
+G0 Z4.000000
+  X36.550000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X28.550000
+G0 Z4.000000
+  X17.500000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X14.455494
+  Y-76.000000
+G0 Z4.000000
+  Y-64.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  Y-26.850000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-18.850000
+G0 Z4.000000
+  X107.660732
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-26.850000
+G0 Z4.000000
+  Y-37.900000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-64.950000
+G0 Z4.000000
+  Y-76.000000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-78.735472
+  X104.750000
+G0 Z4.000000
+  X93.700000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X85.700000
+G0 Z4.000000
+  X74.650000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X66.650000
+G0 Z4.000000
+  X55.600000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X47.600000
+G0 Z4.000000
+  X36.550000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X28.550000
+G0 Z4.000000
+  X28.550000 Y-21.794160
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X36.550000
+G0 Z4.000000
+  X47.600000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X74.650000
+G0 Z4.000000
+  X85.700000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X93.700000
+G0 Z4.000000
+  X28.550000 Y-25.352992
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X36.550000
+G0 Z4.000000
+  X47.600000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X74.650000
+G0 Z4.000000
+  X85.700000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X93.700000
+G0 Z4.000000
+  X28.794761 Y-64.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  X93.321465
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-64.500144
+  X85.561552
+G0 Z4.000000
+  X74.780758
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X66.511552
+G0 Z4.000000
+  X55.730758
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X47.461552
+G0 Z4.000000
+  X36.680758
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X32.379578
+  Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  X89.736648
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-60.941312
+  X85.700000
+G0 Z4.000000
+  X74.650000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X66.650000
+G0 Z4.000000
+  X55.600000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X47.600000
+G0 Z4.000000
+  X36.550000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X35.964395
+  Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-39.588320
+  X36.550000
+G0 Z4.000000
+  X47.600000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X74.650000
+G0 Z4.000000
+  X85.700000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X86.151831
+  Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 Y-57.382480
+  X85.556056
+G0 Z4.000000
+  X74.786090
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X66.506056
+G0 Z4.000000
+  X55.736090
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X47.456056
+G0 Z4.000000
+  X47.600000 Y-43.147152
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-4.000000
+F800  ; set feedrate
+G1 X74.650000
+G0 Z4.000000
+  X10.870677 Y-84.000000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-76.000000
+G0 Z4.000000
+  Y-64.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  Y-26.850000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-18.850000
+G0 Z4.000000
+  X111.245549 Y-18.850000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-26.850000
+G0 Z4.000000
+  Y-37.900000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-64.950000
+G0 Z4.000000
+  Y-76.000000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-82.294304
+  X104.750000
+G0 Z4.000000
+  X93.700000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X85.700000
+G0 Z4.000000
+  X74.650000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X66.650000
+G0 Z4.000000
+  X55.600000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X47.600000
+G0 Z4.000000
+  X36.550000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X28.550000
+G0 Z4.000000
+  X17.500000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X14.455494
+  Y-76.000000
+G0 Z4.000000
+  Y-64.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  Y-26.850000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-18.850000
+G0 Z4.000000
+  X107.660732
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-26.850000
+G0 Z4.000000
+  Y-37.900000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-64.950000
+G0 Z4.000000
+  Y-76.000000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-78.735472
+  X104.750000
+G0 Z4.000000
+  X93.700000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X85.700000
+G0 Z4.000000
+  X74.650000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X66.650000
+G0 Z4.000000
+  X55.600000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X47.600000
+G0 Z4.000000
+  X36.550000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X28.550000
+G0 Z4.000000
+  X28.550000 Y-21.794160
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X36.550000
+G0 Z4.000000
+  X47.600000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X74.650000
+G0 Z4.000000
+  X85.700000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X93.700000
+G0 Z4.000000
+  X28.550000 Y-25.352992
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X36.550000
+G0 Z4.000000
+  X47.600000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X74.650000
+G0 Z4.000000
+  X85.700000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X93.700000
+G0 Z4.000000
+  X28.794761 Y-64.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  X93.321465
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-64.500144
+  X85.561552
+G0 Z4.000000
+  X74.780758
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X66.511552
+G0 Z4.000000
+  X55.730758
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X47.461552
+G0 Z4.000000
+  X36.680758
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X32.379578
+  Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-37.900000
+G0 Z4.000000
+  X89.736648
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-60.941312
+  X85.700000
+G0 Z4.000000
+  X74.650000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X66.650000
+G0 Z4.000000
+  X55.600000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X47.600000
+G0 Z4.000000
+  X36.550000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X35.964395
+  Y-56.950000
+G0 Z4.000000
+  Y-45.900000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-39.588320
+  X36.550000
+G0 Z4.000000
+  X47.600000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X74.650000
+G0 Z4.000000
+  X85.700000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X86.151831
+  Y-45.900000
+G0 Z4.000000
+  Y-56.950000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 Y-57.382480
+  X85.556056
+G0 Z4.000000
+  X74.786090
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X66.506056
+G0 Z4.000000
+  X55.736090
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X47.456056
+G0 Z4.000000
+  X47.600000 Y-43.147152
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X55.600000
+G0 Z4.000000
+  X66.650000
+F200  ; set feedrate
+G1 Z-6.000000
+F800  ; set feedrate
+G1 X74.650000
+M5  ; stop spindle
+G0 Z4.000000
+M2  ; end program
